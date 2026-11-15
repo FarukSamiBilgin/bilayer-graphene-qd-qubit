@@ -91,7 +91,7 @@ Re-runs made while preparing this repository (2026-11-15, Python 3.13.3, numpy 2
 }
 ```
 
-AI assistance: AI coding assistants were used for code development and for adversarial review. All load-bearing results were re-derived by independent methods and checked by automated tests; the author is responsible for every claim.
+AI assistance: AI coding assistants were used for code development and for adversarial review. Load-bearing results are checked against built-in analytic anchors (there is no separate automated test suite); the author is responsible for every claim.
 
 ## License
 Code: MIT (`LICENSE`). Text, figures and data: CC BY 4.0 (`LICENSE-CONTENT`).
