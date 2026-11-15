@@ -1,0 +1,17 @@
+v  = 0.6732 eV*nm   v3 = 0.081 eV*nm
+============================================================
+ANCHOR 1 (Hermiticity): max|H-H^dag| = 0.00e+00
+============================================================
+ANCHOR 2 (bulk conduction min vs analytic gamma3=0):
+  D (eV)  numeric(meV)  analytic(meV)   diff %
+   0.050         23.76          24.79     -4.2
+   0.100         45.51          48.35     -5.9
+   0.167         71.58          76.44     -6.4
+   0.300        120.06         117.73      2.0
+============================================================
+ANCHOR 3 (C3 trigonal): dominant angular harmonic m=3 (expect 3); ring energy std=0.685 meV
+          gamma3=0 control: ring std=0.0000 meV (expect ~0)
+============================================================
+ANCHOR 4 (D=0 gapless): gaps near q=0 = ['-0.000', '0.160', '1.380'] meV
+============================================================
+ANCHOR 5 (K vs K' Kramers): max spectral diff = 0.00e+00
